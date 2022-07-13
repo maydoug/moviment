@@ -9,7 +9,7 @@ async function fazPost(body){
     .then((response) => response.json())
     .then((data) => console.log(data))
     
-    console.log(body)
+    return console.log(body), window.location.assign("https://maydoug.github.io/moviment/sucess.html");
     }
 
 function cadastraUsuario(){
@@ -21,5 +21,7 @@ body = {
     }
 
     fazPost(body);
+    
+    return 
 }
 
