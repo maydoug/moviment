@@ -163,7 +163,7 @@ body {
     }
     .caixaTexto{
         padding-top: 20px;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
         font-size: 18px;
         text-align: center;
         line-height: 18px;
@@ -190,7 +190,7 @@ body {
     width: 83vw;
    }
    .footer{
-    margin-top: 20px;
+    margin-top: 0px;
     text-align: center;
    }
 }
