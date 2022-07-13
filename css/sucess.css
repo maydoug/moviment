@@ -194,3 +194,21 @@ body {
     text-align: center;
    }
 }
+@media screen and (max-width: 290px){
+    .caixaTexto{
+        margin-top: 0px;
+        padding: 10px;
+        margin: 0;
+    }
+    .caixaForm{
+        margin: 15px;
+        padding-top: 75px;
+    }
+    .caixaTexto{
+        padding-top: 8px;
+        margin-bottom: 15px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 18px;
+    }
+}
