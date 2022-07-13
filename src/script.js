@@ -12,7 +12,7 @@ async function fazPost(body){
     console.log(body)
     }
 
-function cadastraUsuario(){
+async function cadastraUsuario(){
 event.preventDefault()
 const emailElemet = document.getElementById('email').value
 
@@ -21,7 +21,5 @@ body = {
     }
 
     fazPost(body);
-    return
 }
 
-window.location.reload('./sucess.html');
