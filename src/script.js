@@ -12,7 +12,7 @@ async function fazPost(body){
     console.log(body)
     }
 
-async function cadastraUsuario(){
+function cadastraUsuario(){
 event.preventDefault()
 const emailElemet = document.getElementById('email').value
 
