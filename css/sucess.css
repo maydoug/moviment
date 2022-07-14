@@ -67,7 +67,7 @@ body {
 }
 .tableRight {
     padding-left: 0px;
-    padding-bottom: 300px;
+    padding-bottom: 130px;
     width: 50%;
     height: 100%;
     z-index: 0;
@@ -85,7 +85,7 @@ body {
 .caixaTexto {
     font-family: 'Roboto', sans-serif;
     line-height: 42px;
-    margin-top: 20px;
+    margin-top: 250px;
     font-size: 25px;
 }
 .call {
@@ -137,9 +137,12 @@ body {
     }
     .bg {
         background: url("../img/background_mobile.png") no-repeat center center;
-        margin: 8px;
+        margin: 0;
         position: absolute;
-        z-index: -5;
+        z-index: -1;
+    }
+    .bg img{
+        height: 200px;
     }
     .nav {
         display: none;
@@ -159,11 +162,11 @@ body {
         text-align: center;
     }
     .logo img {
-        height: 85px;
+        height: 55px;
     }
     .caixaTexto{
-        padding-top: 20px;
-        margin-bottom: 10px;
+        padding-top: 180px;
+        margin-bottom: 0;
         font-size: 18px;
         text-align: center;
         line-height: 18px;
@@ -173,7 +176,7 @@ body {
     }
     .caixaForm{
         margin: 20px;
-        padding-top: 80px;
+        padding-top: 0;
     }
     .tableLeft{
         width: 100%;
@@ -181,7 +184,7 @@ body {
     }
     .tableRight{
         width: 100%;
-        height: 100%;
+        height: 85vh;
     }
    #email {
     width: 83vw;
@@ -190,25 +193,7 @@ body {
     width: 83vw;
    }
    .footer{
-    margin-top: 0px;
+    margin-top: 20px;
     text-align: center;
    }
-}
-@media screen and (max-width: 290px){
-    .caixaTexto{
-        margin-top: 0px;
-        padding: 10px;
-        margin: 0;
-    }
-    .caixaForm{
-        margin: 15px;
-        padding-top: 75px;
-    }
-    .caixaTexto{
-        padding-top: 8px;
-        margin-bottom: 15px;
-        font-size: 18px;
-        text-align: center;
-        line-height: 18px;
-    }
 }
